@@ -14,7 +14,7 @@
 
 # Go build cache & modules
 bin/
-pkg/
+internal/
 *.a
 
 # Output of `go build` / `go install` for command-line projects

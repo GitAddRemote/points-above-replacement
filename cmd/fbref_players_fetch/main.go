@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-	"points-above-replacement/pkg/fbref"
+	"points-above-replacement/internal/fbref"
 	"strconv"
 	"strings"
 	"time"
