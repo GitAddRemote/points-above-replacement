@@ -1,0 +1,73 @@
+# =========================
+# Go-specific ignores
+# =========================
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build output
+*.test
+*.out
+
+# Go build cache & modules
+bin/
+pkg/
+*.a
+
+# Output of `go build` / `go install` for command-line projects
+*.o
+*.lo
+*.la
+*.Plo
+
+# Go coverage files
+*.cover
+*.coverprofile
+coverage.out
+
+# Vendor directory (if using vendoring instead of modules)
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# =========================
+# IntelliJ IDEA / JetBrains
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# IntelliJ-specific build output
+out/
+
+# =========================
+# OS-specific junk
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+*.temp
+
